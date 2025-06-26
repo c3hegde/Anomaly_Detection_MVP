@@ -1,2 +1,2 @@
-# Anomaly_Detection_MVP
-
+## Anomaly_Detection_MVP
+Detecting fraudulent or suspicious expense claims

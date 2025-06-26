@@ -1,0 +1,10 @@
+artifact_location: file:///G:/My%20Drive/Github/Anomaly_Detection_MVP/mlruns/308873675100943714/models/m-ae20fbd8d64e4cadb101fa704947106b/artifacts
+creation_timestamp: 1750969808823
+experiment_id: '308873675100943714'
+last_updated_timestamp: 1750969820543
+model_id: m-ae20fbd8d64e4cadb101fa704947106b
+model_type: null
+name: model
+source_run_id: 5867360ce2254dc39e10eeda4ce0538c
+status: 2
+status_message: null

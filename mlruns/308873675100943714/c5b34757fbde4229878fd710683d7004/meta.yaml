@@ -1,0 +1,14 @@
+artifact_uri: file:///G:/My%20Drive/Github/Anomaly_Detection_MVP/mlruns/308873675100943714/c5b34757fbde4229878fd710683d7004/artifacts
+end_time: 1750969353740
+entry_point_name: ''
+experiment_id: '308873675100943714'
+lifecycle_stage: active
+run_id: c5b34757fbde4229878fd710683d7004
+run_name: unruly-squid-593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750969353126
+status: 4
+tags: []
+user_id: Champ
