@@ -1,0 +1,35 @@
+name: Train Expense Model
+
+on:
+  workflow_dispatch:  # allows manual triggering
+  push:
+    branches:
+      - main           # or 'dev', depending on your repo strategy
+
+env:  # Set repo-wide environment variables
+  MLFLOW_TRACKING_URI: http://localhost:5000
+  MLFLOW_EXPERIMENT_NAME: ExpenseAnomalyDetection
+
+jobs:
+  train-model:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install mlflow pandas scikit-learn
+
+      - name: Train model
+        run: |
+          echo "Training model using MLflow..."
+          python mlops/train_with_tracking.py
