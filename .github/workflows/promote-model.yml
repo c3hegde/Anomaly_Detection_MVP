@@ -1,7 +1,7 @@
 name: Promote MLflow Model
 
 on:
-  workflow_dispatch:  # ✅ enables manual trigger from GitHub UI
+  workflow_dispatch:  # enables manual trigger from GitHub UI
 
 jobs:
   promote:
